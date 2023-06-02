@@ -1,0 +1,118 @@
+/* This is my CSS file */
+
+.home-img{
+    background-image: url(../img/main-img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 139vh;
+}
+
+.test-page-background{
+    background-color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.container{
+    margin: 0;
+}
+
+img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    padding: 2rem 0 0;
+}
+
+ul li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem 0;
+
+    background-color: #69727ab0;
+    border-radius: 24px;
+    margin: 1.5rem 0;
+
+}
+
+li:hover {
+    background-color: black;
+}
+
+ul {
+    margin: 3rem 32rem;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 3rem 0;
+}
+
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    max-width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+}
+
+.city-img{
+    display: flex;
+}
+
+.city-img img {
+    width: 435px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 200%;
+    margin: 4rem;
+}
+
+.container-city {
+    margin: 0 2rem;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container-test-page {
+    margin: 0 10rem 3rem;
+}
+
+.ol-links li:hover {
+    background: none;
+}
+
+.page-test-part2 a {
+    color: black;
+}
+
+.page-test-part2 img {
+    width: 300px;
+}

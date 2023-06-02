@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>
+		Mr McAlpines Computing Blog
+	</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+	<div id="message">
+		<div id="headerImage">
+			<img src="./images/blog background.jpg" id="mainImage">
+		</div>
+
+		<div id="nav">
+			<ul>
+				<li> 
+					<a href="index.html"> Home </a> 
+				</li>
+				<li> 
+					<a href="ISDD.html"> ISDD </a> 
+				</li>
+				<li> 
+					<a href="SDD.html"> SDD </a> 
+				</li>
+				<li> 
+					<a href="Coursework.html"> Coursework </a> 
+				</li>
+				<li> 
+					<a href="Revision.html"> Revision </a> 
+				</li>
+			</ul>
+		</div>
+		
+		<div id="pageInfo">
+			<h1> Coursework </h1>
+			<p>
+			This page will contain information on the coursework to help you improve your grade
+
+
+			Your coursework counts for 40% of the overall grade which you will achieve.
+		</div>
+
+		<button type="button" onClick="addMessage();"> Motivating Comment </button>
+
+		<script>
+			 function addMessage() {
+				document.getElementById('message').innerText = 'You should get 100% no problem!';
+			 }
+		</script>
+    </div>
+</body>
+
+</html>
