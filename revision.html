@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>
+		Mr McAlpines Computing Blog
+	</title>
+	<script>
+		var revealed = false;
+
+		function displayQuestion()
+		{
+			//question is visible
+			if (revealed == false){
+				reavealed = true;
+				document.getElementById('question').innerText = 'What does RAM stand for?';
+			} else {
+				//when the question is not visible
+				reavealed = true;
+				document.getElementById('question').innerText = 'What does RAM stand for?';
+			}
+			
+		}
+	</script>
+</head>
+
+
+<body>
+	<div id="headerImage">
+		<img src="./images/blog background.jpg">
+	</div>
+
+	<div id="nav">
+		<ul>
+			<li> 
+				<a href="index.html"> Home </a> 
+			</li>
+			<li> 
+				<a href="ISDD.html"> ISDD </a> 
+			</li>
+			<li> 
+				<a href="SDD.html"> SDD </a> 
+			</li>
+			<li> 
+				<a href="Coursework.html"> Coursework </a> 
+			</li>
+			<li> 
+				<a href="Revision.html"> Revision </a> 
+			</li>
+		</ul>
+	</div>
+	
+	<div id="pageInfo">
+		<h1> Revision </h1>
+		<p>
+			This area will take you to some revision quizzes which you can try
+		</p>
+
+		<a href="http:///www.quizlet.com/cmcalpine"> HERE </a>
+	</div>
+
+	<div id="question">
+		<button type="button" onClick="displayQuestion()";>
+			display question
+		</button>
+	</div>
+</body>
+
+</html>
